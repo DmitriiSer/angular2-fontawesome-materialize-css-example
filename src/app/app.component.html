@@ -1,0 +1,8 @@
+<div>
+  <span>{{title}}</span>
+  <a materialize="tooltip" class="waves-effect waves-light btn-floating tooltipped" (click)="buttonClick()" [materializeParams]="[{
+      tooltip: tooltipText
+      }]">
+    <i class="fa fa-{{icon}}" aria-hidden="true"></i>
+  </a>
+</div>
